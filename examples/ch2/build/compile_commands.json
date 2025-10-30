@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch2/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch2 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/main.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch2/main.cpp",
+  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch2/main.cpp",
+  "output": "CMakeFiles/ecxx.dir/main.cpp.o"
+}
+]

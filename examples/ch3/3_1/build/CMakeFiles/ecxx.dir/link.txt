@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ecxx.dir/MyClass.cpp.o CMakeFiles/ecxx.dir/file1.cpp.o CMakeFiles/ecxx.dir/file2.cpp.o CMakeFiles/ecxx.dir/main.cpp.o -o ecxx 

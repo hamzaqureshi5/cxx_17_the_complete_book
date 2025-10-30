@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/MyClass.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/MyClass.cpp",
+  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/MyClass.cpp",
+  "output": "CMakeFiles/ecxx.dir/MyClass.cpp.o"
+},
+{
+  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/file1.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/file1.cpp",
+  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/file1.cpp",
+  "output": "CMakeFiles/ecxx.dir/file1.cpp.o"
+},
+{
+  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/file2.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/file2.cpp",
+  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/file2.cpp",
+  "output": "CMakeFiles/ecxx.dir/file2.cpp.o"
+},
+{
+  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/main.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/main.cpp",
+  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1/main.cpp",
+  "output": "CMakeFiles/ecxx.dir/main.cpp.o"
+}
+]

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/3_1.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1.cpp",
+  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1.cpp",
+  "output": "CMakeFiles/ecxx.dir/3_1.cpp.o"
+},
+{
+  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/3_2.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_2.cpp",
+  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_2.cpp",
+  "output": "CMakeFiles/ecxx.dir/3_2.cpp.o"
+},
+{
+  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/3_3.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_3.cpp",
+  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_3.cpp",
+  "output": "CMakeFiles/ecxx.dir/3_3.cpp.o"
+},
+{
+  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/main.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/main.cpp",
+  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/main.cpp",
+  "output": "CMakeFiles/ecxx.dir/main.cpp.o"
+}
+]
