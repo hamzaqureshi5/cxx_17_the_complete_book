@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch4/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Repos/cxx_17_the_complete_book/examples/ch4 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/main.cpp.o -c /home/hamza/Repos/cxx_17_the_complete_book/examples/ch4/main.cpp",
+  "file": "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch4/main.cpp",
+  "output": "CMakeFiles/ecxx.dir/main.cpp.o"
+}
+]
