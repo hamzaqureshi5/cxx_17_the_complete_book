@@ -8,10 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1.cpp" "CMakeFiles/ecxx.dir/3_1.cpp.o" "gcc" "CMakeFiles/ecxx.dir/3_1.cpp.o.d"
-  "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_2.cpp" "CMakeFiles/ecxx.dir/3_2.cpp.o" "gcc" "CMakeFiles/ecxx.dir/3_2.cpp.o.d"
-  "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_3.cpp" "CMakeFiles/ecxx.dir/3_3.cpp.o" "gcc" "CMakeFiles/ecxx.dir/3_3.cpp.o.d"
-  "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/main.cpp" "CMakeFiles/ecxx.dir/main.cpp.o" "gcc" "CMakeFiles/ecxx.dir/main.cpp.o.d"
+  "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1_constexpr_lambda.cpp" "CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o" "gcc" "CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o.d"
+  "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/constexpr_struct.cpp" "CMakeFiles/ecxx.dir/constexpr_struct.cpp.o" "gcc" "CMakeFiles/ecxx.dir/constexpr_struct.cpp.o.d"
+  "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/static_assert.cpp" "CMakeFiles/ecxx.dir/static_assert.cpp.o" "gcc" "CMakeFiles/ecxx.dir/static_assert.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

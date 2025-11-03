@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3
+CMAKE_SOURCE_DIR = /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build
+CMAKE_BINARY_DIR = /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ecxx.dir/depend.make
@@ -69,79 +69,63 @@ include CMakeFiles/ecxx.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ecxx.dir/flags.make
 
-CMakeFiles/ecxx.dir/3_1.cpp.o: CMakeFiles/ecxx.dir/flags.make
-CMakeFiles/ecxx.dir/3_1.cpp.o: /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1.cpp
-CMakeFiles/ecxx.dir/3_1.cpp.o: CMakeFiles/ecxx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ecxx.dir/3_1.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ecxx.dir/3_1.cpp.o -MF CMakeFiles/ecxx.dir/3_1.cpp.o.d -o CMakeFiles/ecxx.dir/3_1.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1.cpp
+CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o: CMakeFiles/ecxx.dir/flags.make
+CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o: /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1_constexpr_lambda.cpp
+CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o: CMakeFiles/ecxx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o -MF CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o.d -o CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o -c /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1_constexpr_lambda.cpp
 
-CMakeFiles/ecxx.dir/3_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ecxx.dir/3_1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1.cpp > CMakeFiles/ecxx.dir/3_1.cpp.i
+CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1_constexpr_lambda.cpp > CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.i
 
-CMakeFiles/ecxx.dir/3_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ecxx.dir/3_1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1.cpp -o CMakeFiles/ecxx.dir/3_1.cpp.s
+CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1_constexpr_lambda.cpp -o CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.s
 
-CMakeFiles/ecxx.dir/3_2.cpp.o: CMakeFiles/ecxx.dir/flags.make
-CMakeFiles/ecxx.dir/3_2.cpp.o: /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_2.cpp
-CMakeFiles/ecxx.dir/3_2.cpp.o: CMakeFiles/ecxx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ecxx.dir/3_2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ecxx.dir/3_2.cpp.o -MF CMakeFiles/ecxx.dir/3_2.cpp.o.d -o CMakeFiles/ecxx.dir/3_2.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_2.cpp
+CMakeFiles/ecxx.dir/constexpr_struct.cpp.o: CMakeFiles/ecxx.dir/flags.make
+CMakeFiles/ecxx.dir/constexpr_struct.cpp.o: /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/constexpr_struct.cpp
+CMakeFiles/ecxx.dir/constexpr_struct.cpp.o: CMakeFiles/ecxx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ecxx.dir/constexpr_struct.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ecxx.dir/constexpr_struct.cpp.o -MF CMakeFiles/ecxx.dir/constexpr_struct.cpp.o.d -o CMakeFiles/ecxx.dir/constexpr_struct.cpp.o -c /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/constexpr_struct.cpp
 
-CMakeFiles/ecxx.dir/3_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ecxx.dir/3_2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_2.cpp > CMakeFiles/ecxx.dir/3_2.cpp.i
+CMakeFiles/ecxx.dir/constexpr_struct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ecxx.dir/constexpr_struct.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/constexpr_struct.cpp > CMakeFiles/ecxx.dir/constexpr_struct.cpp.i
 
-CMakeFiles/ecxx.dir/3_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ecxx.dir/3_2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_2.cpp -o CMakeFiles/ecxx.dir/3_2.cpp.s
+CMakeFiles/ecxx.dir/constexpr_struct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ecxx.dir/constexpr_struct.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/constexpr_struct.cpp -o CMakeFiles/ecxx.dir/constexpr_struct.cpp.s
 
-CMakeFiles/ecxx.dir/3_3.cpp.o: CMakeFiles/ecxx.dir/flags.make
-CMakeFiles/ecxx.dir/3_3.cpp.o: /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_3.cpp
-CMakeFiles/ecxx.dir/3_3.cpp.o: CMakeFiles/ecxx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ecxx.dir/3_3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ecxx.dir/3_3.cpp.o -MF CMakeFiles/ecxx.dir/3_3.cpp.o.d -o CMakeFiles/ecxx.dir/3_3.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_3.cpp
+CMakeFiles/ecxx.dir/static_assert.cpp.o: CMakeFiles/ecxx.dir/flags.make
+CMakeFiles/ecxx.dir/static_assert.cpp.o: /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/static_assert.cpp
+CMakeFiles/ecxx.dir/static_assert.cpp.o: CMakeFiles/ecxx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ecxx.dir/static_assert.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ecxx.dir/static_assert.cpp.o -MF CMakeFiles/ecxx.dir/static_assert.cpp.o.d -o CMakeFiles/ecxx.dir/static_assert.cpp.o -c /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/static_assert.cpp
 
-CMakeFiles/ecxx.dir/3_3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ecxx.dir/3_3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_3.cpp > CMakeFiles/ecxx.dir/3_3.cpp.i
+CMakeFiles/ecxx.dir/static_assert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ecxx.dir/static_assert.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/static_assert.cpp > CMakeFiles/ecxx.dir/static_assert.cpp.i
 
-CMakeFiles/ecxx.dir/3_3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ecxx.dir/3_3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_3.cpp -o CMakeFiles/ecxx.dir/3_3.cpp.s
-
-CMakeFiles/ecxx.dir/main.cpp.o: CMakeFiles/ecxx.dir/flags.make
-CMakeFiles/ecxx.dir/main.cpp.o: /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/main.cpp
-CMakeFiles/ecxx.dir/main.cpp.o: CMakeFiles/ecxx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ecxx.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ecxx.dir/main.cpp.o -MF CMakeFiles/ecxx.dir/main.cpp.o.d -o CMakeFiles/ecxx.dir/main.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/main.cpp
-
-CMakeFiles/ecxx.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ecxx.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/main.cpp > CMakeFiles/ecxx.dir/main.cpp.i
-
-CMakeFiles/ecxx.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ecxx.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/main.cpp -o CMakeFiles/ecxx.dir/main.cpp.s
+CMakeFiles/ecxx.dir/static_assert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ecxx.dir/static_assert.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/static_assert.cpp -o CMakeFiles/ecxx.dir/static_assert.cpp.s
 
 # Object files for target ecxx
 ecxx_OBJECTS = \
-"CMakeFiles/ecxx.dir/3_1.cpp.o" \
-"CMakeFiles/ecxx.dir/3_2.cpp.o" \
-"CMakeFiles/ecxx.dir/3_3.cpp.o" \
-"CMakeFiles/ecxx.dir/main.cpp.o"
+"CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o" \
+"CMakeFiles/ecxx.dir/constexpr_struct.cpp.o" \
+"CMakeFiles/ecxx.dir/static_assert.cpp.o"
 
 # External object files for target ecxx
 ecxx_EXTERNAL_OBJECTS =
 
-ecxx: CMakeFiles/ecxx.dir/3_1.cpp.o
-ecxx: CMakeFiles/ecxx.dir/3_2.cpp.o
-ecxx: CMakeFiles/ecxx.dir/3_3.cpp.o
-ecxx: CMakeFiles/ecxx.dir/main.cpp.o
+ecxx: CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o
+ecxx: CMakeFiles/ecxx.dir/constexpr_struct.cpp.o
+ecxx: CMakeFiles/ecxx.dir/static_assert.cpp.o
 ecxx: CMakeFiles/ecxx.dir/build.make
 ecxx: CMakeFiles/ecxx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ecxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ecxx"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ecxx.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +137,6 @@ CMakeFiles/ecxx.dir/clean:
 .PHONY : CMakeFiles/ecxx.dir/clean
 
 CMakeFiles/ecxx.dir/depend:
-	cd /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3 /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3 /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build/CMakeFiles/ecxx.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6 /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6 /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build/CMakeFiles/ecxx.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ecxx.dir/depend
 

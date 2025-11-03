@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3
+CXX_INCLUDES = -I/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6
 
 CXX_FLAGS = -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g
 

@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ecxx.dir/3_1.cpp.o"
-  "CMakeFiles/ecxx.dir/3_1.cpp.o.d"
-  "CMakeFiles/ecxx.dir/3_2.cpp.o"
-  "CMakeFiles/ecxx.dir/3_2.cpp.o.d"
-  "CMakeFiles/ecxx.dir/3_3.cpp.o"
-  "CMakeFiles/ecxx.dir/3_3.cpp.o.d"
-  "CMakeFiles/ecxx.dir/main.cpp.o"
-  "CMakeFiles/ecxx.dir/main.cpp.o.d"
+  "CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o"
+  "CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o.d"
+  "CMakeFiles/ecxx.dir/constexpr_struct.cpp.o"
+  "CMakeFiles/ecxx.dir/constexpr_struct.cpp.o.d"
+  "CMakeFiles/ecxx.dir/static_assert.cpp.o"
+  "CMakeFiles/ecxx.dir/static_assert.cpp.o.d"
   "ecxx"
   "ecxx.pdb"
 )

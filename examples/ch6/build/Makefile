@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3
+CMAKE_SOURCE_DIR = /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build
+CMAKE_BINARY_DIR = /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build/CMakeFiles /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build/CMakeFiles /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,101 +129,77 @@ ecxx/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/build
 .PHONY : ecxx/fast
 
-3_1.o: 3_1.cpp.o
-.PHONY : 3_1.o
+6_1_constexpr_lambda.o: 6_1_constexpr_lambda.cpp.o
+.PHONY : 6_1_constexpr_lambda.o
 
 # target to build an object file
-3_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_1.cpp.o
-.PHONY : 3_1.cpp.o
+6_1_constexpr_lambda.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o
+.PHONY : 6_1_constexpr_lambda.cpp.o
 
-3_1.i: 3_1.cpp.i
-.PHONY : 3_1.i
+6_1_constexpr_lambda.i: 6_1_constexpr_lambda.cpp.i
+.PHONY : 6_1_constexpr_lambda.i
 
 # target to preprocess a source file
-3_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_1.cpp.i
-.PHONY : 3_1.cpp.i
+6_1_constexpr_lambda.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.i
+.PHONY : 6_1_constexpr_lambda.cpp.i
 
-3_1.s: 3_1.cpp.s
-.PHONY : 3_1.s
+6_1_constexpr_lambda.s: 6_1_constexpr_lambda.cpp.s
+.PHONY : 6_1_constexpr_lambda.s
 
 # target to generate assembly for a file
-3_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_1.cpp.s
-.PHONY : 3_1.cpp.s
+6_1_constexpr_lambda.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.s
+.PHONY : 6_1_constexpr_lambda.cpp.s
 
-3_2.o: 3_2.cpp.o
-.PHONY : 3_2.o
+constexpr_struct.o: constexpr_struct.cpp.o
+.PHONY : constexpr_struct.o
 
 # target to build an object file
-3_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_2.cpp.o
-.PHONY : 3_2.cpp.o
+constexpr_struct.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/constexpr_struct.cpp.o
+.PHONY : constexpr_struct.cpp.o
 
-3_2.i: 3_2.cpp.i
-.PHONY : 3_2.i
+constexpr_struct.i: constexpr_struct.cpp.i
+.PHONY : constexpr_struct.i
 
 # target to preprocess a source file
-3_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_2.cpp.i
-.PHONY : 3_2.cpp.i
+constexpr_struct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/constexpr_struct.cpp.i
+.PHONY : constexpr_struct.cpp.i
 
-3_2.s: 3_2.cpp.s
-.PHONY : 3_2.s
+constexpr_struct.s: constexpr_struct.cpp.s
+.PHONY : constexpr_struct.s
 
 # target to generate assembly for a file
-3_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_2.cpp.s
-.PHONY : 3_2.cpp.s
+constexpr_struct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/constexpr_struct.cpp.s
+.PHONY : constexpr_struct.cpp.s
 
-3_3.o: 3_3.cpp.o
-.PHONY : 3_3.o
+static_assert.o: static_assert.cpp.o
+.PHONY : static_assert.o
 
 # target to build an object file
-3_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_3.cpp.o
-.PHONY : 3_3.cpp.o
+static_assert.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/static_assert.cpp.o
+.PHONY : static_assert.cpp.o
 
-3_3.i: 3_3.cpp.i
-.PHONY : 3_3.i
-
-# target to preprocess a source file
-3_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_3.cpp.i
-.PHONY : 3_3.cpp.i
-
-3_3.s: 3_3.cpp.s
-.PHONY : 3_3.s
-
-# target to generate assembly for a file
-3_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_3.cpp.s
-.PHONY : 3_3.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
+static_assert.i: static_assert.cpp.i
+.PHONY : static_assert.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/main.cpp.i
-.PHONY : main.cpp.i
+static_assert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/static_assert.cpp.i
+.PHONY : static_assert.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+static_assert.s: static_assert.cpp.s
+.PHONY : static_assert.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/main.cpp.s
-.PHONY : main.cpp.s
+static_assert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/static_assert.cpp.s
+.PHONY : static_assert.cpp.s
 
 # Help Target
 help:
@@ -234,18 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ecxx"
-	@echo "... 3_1.o"
-	@echo "... 3_1.i"
-	@echo "... 3_1.s"
-	@echo "... 3_2.o"
-	@echo "... 3_2.i"
-	@echo "... 3_2.s"
-	@echo "... 3_3.o"
-	@echo "... 3_3.i"
-	@echo "... 3_3.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... 6_1_constexpr_lambda.o"
+	@echo "... 6_1_constexpr_lambda.i"
+	@echo "... 6_1_constexpr_lambda.s"
+	@echo "... constexpr_struct.o"
+	@echo "... constexpr_struct.i"
+	@echo "... constexpr_struct.s"
+	@echo "... static_assert.o"
+	@echo "... static_assert.i"
+	@echo "... static_assert.s"
 .PHONY : help
 
 

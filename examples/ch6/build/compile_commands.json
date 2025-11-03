@@ -1,26 +1,20 @@
 [
 {
-  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build",
-  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/3_1.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1.cpp",
-  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1.cpp",
-  "output": "CMakeFiles/ecxx.dir/3_1.cpp.o"
+  "directory": "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o -c /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1_constexpr_lambda.cpp",
+  "file": "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1_constexpr_lambda.cpp",
+  "output": "CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o"
 },
 {
-  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build",
-  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/3_2.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_2.cpp",
-  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_2.cpp",
-  "output": "CMakeFiles/ecxx.dir/3_2.cpp.o"
+  "directory": "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/constexpr_struct.cpp.o -c /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/constexpr_struct.cpp",
+  "file": "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/constexpr_struct.cpp",
+  "output": "CMakeFiles/ecxx.dir/constexpr_struct.cpp.o"
 },
 {
-  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build",
-  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/3_3.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_3.cpp",
-  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_3.cpp",
-  "output": "CMakeFiles/ecxx.dir/3_3.cpp.o"
-},
-{
-  "directory": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build",
-  "command": "/usr/bin/c++  -I/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/main.cpp.o -c /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/main.cpp",
-  "file": "/home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/main.cpp",
-  "output": "CMakeFiles/ecxx.dir/main.cpp.o"
+  "directory": "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/static_assert.cpp.o -c /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/static_assert.cpp",
+  "file": "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/static_assert.cpp",
+  "output": "CMakeFiles/ecxx.dir/static_assert.cpp.o"
 }
 ]

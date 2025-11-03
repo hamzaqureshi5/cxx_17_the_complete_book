@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1 -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o -c /home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1/6_1_constexpr_lambda.cpp",
+  "file": "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch6/6_1/6_1_constexpr_lambda.cpp",
+  "output": "CMakeFiles/ecxx.dir/6_1_constexpr_lambda.cpp.o"
+}
+]
