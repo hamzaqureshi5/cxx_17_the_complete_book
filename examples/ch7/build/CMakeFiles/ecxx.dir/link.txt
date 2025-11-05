@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/ecxx.dir/3_1.cpp.o CMakeFiles/ecxx.dir/3_2.cpp.o CMakeFiles/ecxx.dir/3_3.cpp.o CMakeFiles/ecxx.dir/main.cpp.o -o ecxx 
+/usr/bin/c++ CMakeFiles/ecxx.dir/attributes.cpp.o -o ecxx 

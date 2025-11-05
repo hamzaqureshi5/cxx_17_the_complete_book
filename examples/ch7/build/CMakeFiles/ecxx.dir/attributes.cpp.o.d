@@ -1,5 +1,5 @@
-CMakeFiles/ecxx.dir/3_1.cpp.o: \
- /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/3_1.cpp \
+CMakeFiles/ecxx.dir/attributes.cpp.o: \
+ /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7/attributes.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -149,10 +149,4 @@ CMakeFiles/ecxx.dir/3_1.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/map \
- /usr/include/c++/13/bits/stl_tree.h \
- /usr/include/c++/13/ext/aligned_buffer.h \
- /usr/include/c++/13/bits/node_handle.h \
- /usr/include/c++/13/bits/stl_map.h \
- /usr/include/c++/13/bits/stl_multimap.h \
- /usr/include/c++/13/bits/erase_if.h
+ /usr/include/c++/13/bits/istream.tcc

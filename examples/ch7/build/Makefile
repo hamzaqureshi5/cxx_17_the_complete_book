@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3
+CMAKE_SOURCE_DIR = /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build
+CMAKE_BINARY_DIR = /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build/CMakeFiles /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7/build/CMakeFiles /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Downloads/Learnings/cxx/cxx17/examples/ch3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,101 +129,29 @@ ecxx/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/build
 .PHONY : ecxx/fast
 
-3_1.o: 3_1.cpp.o
-.PHONY : 3_1.o
+attributes.o: attributes.cpp.o
+.PHONY : attributes.o
 
 # target to build an object file
-3_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_1.cpp.o
-.PHONY : 3_1.cpp.o
+attributes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/attributes.cpp.o
+.PHONY : attributes.cpp.o
 
-3_1.i: 3_1.cpp.i
-.PHONY : 3_1.i
-
-# target to preprocess a source file
-3_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_1.cpp.i
-.PHONY : 3_1.cpp.i
-
-3_1.s: 3_1.cpp.s
-.PHONY : 3_1.s
-
-# target to generate assembly for a file
-3_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_1.cpp.s
-.PHONY : 3_1.cpp.s
-
-3_2.o: 3_2.cpp.o
-.PHONY : 3_2.o
-
-# target to build an object file
-3_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_2.cpp.o
-.PHONY : 3_2.cpp.o
-
-3_2.i: 3_2.cpp.i
-.PHONY : 3_2.i
+attributes.i: attributes.cpp.i
+.PHONY : attributes.i
 
 # target to preprocess a source file
-3_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_2.cpp.i
-.PHONY : 3_2.cpp.i
+attributes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/attributes.cpp.i
+.PHONY : attributes.cpp.i
 
-3_2.s: 3_2.cpp.s
-.PHONY : 3_2.s
-
-# target to generate assembly for a file
-3_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_2.cpp.s
-.PHONY : 3_2.cpp.s
-
-3_3.o: 3_3.cpp.o
-.PHONY : 3_3.o
-
-# target to build an object file
-3_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_3.cpp.o
-.PHONY : 3_3.cpp.o
-
-3_3.i: 3_3.cpp.i
-.PHONY : 3_3.i
-
-# target to preprocess a source file
-3_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_3.cpp.i
-.PHONY : 3_3.cpp.i
-
-3_3.s: 3_3.cpp.s
-.PHONY : 3_3.s
+attributes.s: attributes.cpp.s
+.PHONY : attributes.s
 
 # target to generate assembly for a file
-3_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/3_3.cpp.s
-.PHONY : 3_3.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/main.cpp.s
-.PHONY : main.cpp.s
+attributes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/attributes.cpp.s
+.PHONY : attributes.cpp.s
 
 # Help Target
 help:
@@ -234,18 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ecxx"
-	@echo "... 3_1.o"
-	@echo "... 3_1.i"
-	@echo "... 3_1.s"
-	@echo "... 3_2.o"
-	@echo "... 3_2.i"
-	@echo "... 3_2.s"
-	@echo "... 3_3.o"
-	@echo "... 3_3.i"
-	@echo "... 3_3.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... attributes.o"
+	@echo "... attributes.i"
+	@echo "... attributes.s"
 .PHONY : help
 
 
