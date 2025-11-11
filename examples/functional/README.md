@@ -68,84 +68,13 @@ programming, and type-erased callable handling.
 
 -   `std::hash<T>`
 
-------------------------------------------------------------------------
-
-## ✅ **2. C++17 Example Using All Features**
-
-``` cpp
-#include <iostream>
-#include <functional>
-
-struct A {
-    int mult(int x) { return x * 10; }
-    int add(int x, int y) { return x + y; }
-};
-
-struct Functor {
-    int operator()(int x) const { return x * x; }
-};
-
-int freeFunc(int x) {
-    return x + 1;
-}
-
-bool isEven(int x) {
-    return x % 2 == 0;
-}
-
-int main() {
-    A obj;
-
-    std::cout << "invoke freeFunc: "
-              << std::invoke(freeFunc, 5) << "\n";
-
-    std::cout << "invoke member mult: "
-              << std::invoke(&A::mult, obj, 3) << "\n";
-
-    auto lambda = [](int x) { return x * 2; };
-    std::cout << "invoke lambda: "
-              << std::invoke(lambda, 4) << "\n";
-
-    Functor f;
-    std::cout << "invoke functor: "
-              << std::invoke(f, 6) << "\n";
-
-    std::function<int(int)> func1 = freeFunc;
-    std::function<int(int)> func2 = lambda;
-    std::function<int(int)> func3 = f;
-
-    std::cout << "std::function freeFunc: " << func1(5) << "\n";
-    std::cout << "std::function lambda: "   << func2(5) << "\n";
-    std::cout << "std::function functor: "  << func3(5) << "\n";
-
-    auto boundFree = std::bind(freeFunc, std::placeholders::_1);
-    std::cout << "bind freeFunc: " << boundFree(10) << "\n";
-
-    auto boundMember =
-        std::bind(&A::add, &obj, std::placeholders::_1, std::placeholders::_2);
-    std::cout << "bind member add: " << boundMember(2, 3) << "\n";
-
-    int x = 10;
-    auto add_ref = [&](int y) { return x += y; };
-
-    std::function<int(int)> refCall = std::ref(add_ref);
-    std::cout << "ref call: " << refCall(5) << "\n";
-    std::cout << "x after ref: " << x << "\n";
-
-    auto isOdd = std::not_fn(isEven);
-    std::cout << "isOdd(7): " << isOdd(7) << "\n";
-
-    return 0;
-}
-```
 
 ------------------------------------------------------------------------
 
 ## ✅ **3. How to Build**
 
 ``` bash
-g++ -std=c++17 example.cpp -o example
-./example
+./run.sh
 ```
 
 ------------------------------------------------------------------------
