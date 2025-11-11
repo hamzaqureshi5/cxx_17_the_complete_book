@@ -1,0 +1,3 @@
+/home/hamza/Repos/cxx_17_the_complete_book/examples/functional/build/CMakeFiles/ecxx.dir
+/home/hamza/Repos/cxx_17_the_complete_book/examples/functional/build/CMakeFiles/edit_cache.dir
+/home/hamza/Repos/cxx_17_the_complete_book/examples/functional/build/CMakeFiles/rebuild_cache.dir
