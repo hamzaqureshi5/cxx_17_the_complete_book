@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7
+CMAKE_SOURCE_DIR = /home/hamza/Learning/cxx_17_the_complete_book/examples/ch8
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7/build
+CMAKE_BINARY_DIR = /home/hamza/Learning/cxx_17_the_complete_book/examples/ch8/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7/build/CMakeFiles /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Learning/cxx_17_the_complete_book/examples/ch8/build/CMakeFiles /home/hamza/Learning/cxx_17_the_complete_book/examples/ch8/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamza/Learning/cxx_17_the_complete_book/examples/ch8/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ ecxx/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/build
 .PHONY : ecxx/fast
 
-attributes.o: attributes.cpp.o
-.PHONY : attributes.o
+language_features.o: language_features.cpp.o
+.PHONY : language_features.o
 
 # target to build an object file
-attributes.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/attributes.cpp.o
-.PHONY : attributes.cpp.o
+language_features.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/language_features.cpp.o
+.PHONY : language_features.cpp.o
 
-attributes.i: attributes.cpp.i
-.PHONY : attributes.i
+language_features.i: language_features.cpp.i
+.PHONY : language_features.i
 
 # target to preprocess a source file
-attributes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/attributes.cpp.i
-.PHONY : attributes.cpp.i
+language_features.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/language_features.cpp.i
+.PHONY : language_features.cpp.i
 
-attributes.s: attributes.cpp.s
-.PHONY : attributes.s
+language_features.s: language_features.cpp.s
+.PHONY : language_features.s
 
 # target to generate assembly for a file
-attributes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/attributes.cpp.s
-.PHONY : attributes.cpp.s
+language_features.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecxx.dir/build.make CMakeFiles/ecxx.dir/language_features.cpp.s
+.PHONY : language_features.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ecxx"
-	@echo "... attributes.o"
-	@echo "... attributes.i"
-	@echo "... attributes.s"
+	@echo "... language_features.o"
+	@echo "... language_features.i"
+	@echo "... language_features.s"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hamza/Repos/cxx_17_the_complete_book/examples/ch7
+# Install script for directory: /home/hamza/Learning/cxx_17_the_complete_book/examples/ch8
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hamza/Repos/cxx_17_the_complete_book/examples/ch7/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hamza/Learning/cxx_17_the_complete_book/examples/ch8/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

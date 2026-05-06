@@ -1,0 +1,3 @@
+/home/hamza/Learning/cxx_17_the_complete_book/examples/crtp/build/CMakeFiles/ecxx.dir
+/home/hamza/Learning/cxx_17_the_complete_book/examples/crtp/build/CMakeFiles/edit_cache.dir
+/home/hamza/Learning/cxx_17_the_complete_book/examples/crtp/build/CMakeFiles/rebuild_cache.dir

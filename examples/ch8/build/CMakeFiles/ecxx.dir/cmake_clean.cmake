@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ecxx.dir/attributes.cpp.o"
-  "CMakeFiles/ecxx.dir/attributes.cpp.o.d"
+  "CMakeFiles/ecxx.dir/language_features.cpp.o"
+  "CMakeFiles/ecxx.dir/language_features.cpp.o.d"
   "ecxx"
   "ecxx.pdb"
 )
