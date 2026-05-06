@@ -5,13 +5,13 @@ template <typename T> class CRTP_Base {
 public:
   void call() {
     // Call function from Derived
-    static_cast<T *>(this)->sayHello();
+    static_cast<T *>(this)->FunctionCall();
   }
 };
 
 class CRTP_Derived : public CRTP_Base<CRTP_Derived> {
 public:
-  void sayHello() { cout << "CRTP Function call from Derived\n"; }
+  void FunctionCall() { cout << "CRTP Function call from Derived\n"; }
 };
 
 // WITHOUT CRTP
@@ -35,7 +35,7 @@ public:
 int main() {
   // WITH CRTP
   CRTP_Derived d;
-  d.call(); // Calls Derived::sayHello()
+  d.call(); // Calls Derived::FunctionCall()
 
   // WITHOUT CRTP
   // NO_CRTP_Base *obj = new NO_CRTP_Derived();
