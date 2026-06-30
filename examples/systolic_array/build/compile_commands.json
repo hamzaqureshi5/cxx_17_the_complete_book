@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/hamza/Learning/cxx_17_the_complete_book/examples/systolic_array/build",
+  "command": "/usr/bin/c++  -I/home/hamza/Learning/cxx_17_the_complete_book/examples/systolic_array -std=gnu++17 -Wall -Wextra -Wno-unused-parameter -Wunused-variable -Wreturn-type -Wno-redundant-move -g -o CMakeFiles/sys-array.dir/main.cpp.o -c /home/hamza/Learning/cxx_17_the_complete_book/examples/systolic_array/main.cpp",
+  "file": "/home/hamza/Learning/cxx_17_the_complete_book/examples/systolic_array/main.cpp",
+  "output": "CMakeFiles/sys-array.dir/main.cpp.o"
+}
+]

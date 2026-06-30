@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/sys-array.dir/main.cpp.o" -o sys-array 
